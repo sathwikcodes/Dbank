@@ -39,7 +39,7 @@ actor Dbank{
    public func compound() {
     let currentTIme = Time.now();
     let timeElapsedNs = currentTIme - startTime;
-    let timesec = timeElapsedNs/1000000000000000;
+    let timesec = timeElapsedNs/1000000000;
     currentValue := currentValue * (1.01 ** Float.fromInt(timesec));
     startTime := currentTIme;
    };
