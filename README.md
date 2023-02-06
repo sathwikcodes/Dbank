@@ -39,3 +39,9 @@ npm start
  
 
 Once the job completes, your application will be available at `http://localhost:8000`.
+
+
+
+
+ <p align="center" >
+ <img src="Screenshot (11).png" width="70%"> </p>
